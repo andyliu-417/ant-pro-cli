@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class App extends Component {
   componentDidMount() {
-    axios.get('https://jsonplaceholder.typicode.com/posts').then(data => {
+    axios.get('/api/users').then(data => {
       console.log(data);
     });
   }
